@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lshop - Home</title>
+  <link rel="shortcut icon" href="/L-shop-favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="/css/LShop.css">
+  <script src="/js/LShop.js"></script>
+  <audio src="/sfx/loading.wav" id="loadingsound" loop="" preload></audio>
+</head>
+<body>
+  <div id="loader">
+  <img src="/image/loading.png" id="loadingicon">
+  </div>
+
+
+  <div id="sidebar">
+
+    <a href="index.html" onclick="wiuclick(); startloader();"  style="text-decoration:none; outline:none;">
+    <li id="sidebarlink" style="border-top-right-radius:60px;">
+     <div id="sidebarlinktxt" class="link01" style="height:fit-content; position:relative; top:50px; color: #FF7d00;">LShop Home</div>
+    </li>
+  </a>
+  <a href="#" onclick=" wiuclick();  startloader();"  style="text-decoration:none; outline:none;">
+    <li id="sidebarlink">
+     <div id="sidebarlinktxt" class="link01" style="height:fit-content; position:relative; top:80px; color:#323232;">
+      My Menu</div>
+    </li>
+  </a>
+  <a href="#" onclick="wiuclick();  startloader();" style="text-decoration:none; outline:none;">
+    <li id="sidebarlink">
+     <div id="sidebarlinktxt" class="link01" style="height:fit-content; position:relative; top:80px; color:#323232;">
+      Settings</div>
+    </li>
+  </a>
+  <a href="javascript:playBGM();"  onclick="wiuclick();"  id="shopbgm" style="text-decoration:none; outline:none;">
+    <li id="sidebarlink">
+     <div id="sidebarlinktxt" class="link01" style="height:fit-content; position:relative; top:80px; color:#323232;">
+      <span id="bgmbtn">Play BGM</span>
+    </div>
+    </li>
+  </a>
+
+  </div>
+
+  <div id="mainpart">
+    <br>
+    <a href="#">
+      <button onmouseover="wiuover();" onclick="wiuclick(); startloader();">Hi</button>
+    </a>
+
+     <style>
+      #mainpart {
+        position:absolute;
+  left:0;
+  padding-left:168px;
+  width:100%;
+
+      }
+     </style>
+  </div>
+</body>
+</html>
